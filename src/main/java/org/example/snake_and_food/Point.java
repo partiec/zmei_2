@@ -1,12 +1,11 @@
-package org.example.snake;
+package org.example.snake_and_food;
 
 import org.example.Constants;
-import org.example.GameSnake;
 
 import java.awt.*;
 
 class Point {
-    GameSnake gameSnake = GameSnake.instance();
+
     int x, y;
     Color color = Constants.DEFAULT_COLOR;
 
@@ -14,7 +13,7 @@ class Point {
         this.setXY(x, y);
     }
 
-    void paint(Graphics g) {
+    public void paint(Graphics g) {
         g.setColor(color);
         g.fillOval(x * Constants.POINT_RADIUS, y * Constants.POINT_RADIUS, Constants.POINT_RADIUS, Constants.POINT_RADIUS);
     }

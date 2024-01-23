@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d59c6f9-91ec-41b1-a5bb-6405167a7555" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GameSnake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/snake/Canvasik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/snake/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/snake/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/snake/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GameSnake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/snake/Canvasik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/view/Canvasik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/snake/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/snake_and_food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/snake/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/snake_and_food/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/snake_and_food/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +55,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GameSnake" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Game" />
       <module name="Zmei_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.snake.*" />
+          <option name="PATTERN" value="org.example.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +85,13 @@
       <workItem from="1705864181133" duration="5808000" />
       <workItem from="1705873454767" duration="31000" />
       <workItem from="1705874014276" duration="11521000" />
+      <workItem from="1705913994275" duration="5236000" />
+      <workItem from="1705919618726" duration="13000" />
+      <workItem from="1705919653357" duration="6000" />
+      <workItem from="1705952776078" duration="1721000" />
+      <workItem from="1705959645499" duration="7295000" />
+      <workItem from="1705967105172" duration="2789000" />
+      <workItem from="1706000846293" duration="9910000" />
     </task>
     <servers />
   </component>
@@ -97,9 +102,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/GameSnake.java</url>
-          <line>35</line>
-          <properties class="org.example.GameSnake" method="main">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Game.java</url>
+          <line>15</line>
+          <properties class="org.example.Game" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -1,20 +1,23 @@
-package org.example.snake;
+package org.example.view;
 
 import org.example.Constants;
-import org.example.GameSnake;
+import org.example.Game;
+import org.example.snake_and_food.Food;
+import org.example.snake_and_food.Snake;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class Canvasik extends JPanel {
 
-    GameSnake gameSnake = GameSnake.instance();
+    private Snake snake = Game.game.snake;
+    private Food food = Game.game.food;
     @Override
     public void paint(Graphics q) {
         super.paint(q);
-        gameSnake.snake.paint(q);
-        gameSnake.food.paint(q);
-        if (gameSnake.gameOver) {
+        snake.paint(q);
+        food.paint(q);
+        if (Game.gameOver) {
             q.setColor(Color.red);
             q.setFont(new Font("Arial", Font.BOLD, 38));
             FontMetrics fm = q.getFontMetrics();
